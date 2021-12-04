@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header-container{
+    color: white;
+    background-color: #19334d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 45px;
+
+
+}
+.header-left{
+    margin: 15px 335px 15px 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+.header-right{
+    display: flex;
+    margin-right: 144px;
+    gap: 45px;
+}
+a{
+    color: white;
+}
+.section1-container{
+    color: white;
+    background-color: #19334d;
+    display: flex;
+    gap: 30px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.section1-left{
+    width: 400px;
+    margin-left: 175px;
+}
+#section1-title{
+    font-size: 44px;
+    font-weight: 700;
+    width: 280px;
+    margin: 0;
+}
+#subtext{
+    margin: 0;
+    width: 350px;
+    color: lightgray;
+}
+#button1{
+    border-radius: 6px;
+    color: white;
+    background: #1a8cff;
+    font-weight: 800;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+#section2-title{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 32px 0;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 262px 50px 262px;
+    gap: 30px;
+
+}
+.section2-1,
+.section2-2,
+.section2-3,
+.section2-4{
+    width: 140px;
+    text-align: center;
+    font-size: 13px;
+}
+.section2-img{
+    border-radius: 12px;
+}
+.section3{
+    display: flex;
+    background-color: #E8E8E8;
+    flex-direction: column;
+}
+.section3-quote{
+    height: 75px;
+    width: 537px;
+    padding: 75px 300px 75px 315px;
+    margin-left: 25px;
+    margin-bottom: 55px;
+    font-size: 26px;
+    color: #585858;
+}
+.section3-sign{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 325px;
+}
+.section4{
+    background-color: #4d94ff;
+    margin: 90px 252px;
+    border-radius: 10px;
+    color: white;
+    padding: 35px 85px;
+    display: flex;
+    align-items: center;
+}
+#p1,
+#p2{
+    margin: 0;
+}
+#p2{
+    font-size: 13px;
+}
+#button2{
+    color: white;
+    background-color: #4d94ff;
+    border-color: white;
+    border-radius: 6px;
+    margin-left: 130px;
+}
+footer{
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #19334d;
+    padding: 20px;
+    align-items: center;
+}
